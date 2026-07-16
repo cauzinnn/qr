@@ -76,13 +76,13 @@
     }
   </style>
 </head>
-<body class="bg-[#050505] overflow-hidden text-white font-sans flex flex-col items-center justify-between min-h-screen relative select-none">
+<body class="bg-[#050505] overflow-x-hidden overflow-y-auto text-white font-sans flex flex-col items-center justify-between min-h-screen relative select-none">
 
   <!-- Fundo Estrelado Dinâmico -->
   <canvas id="starfield" class="absolute inset-0 pointer-events-none z-0"></canvas>
 
   <!-- ================= TELA 1: O BOTÃO E ACESSO RÁPIDO ================= -->
-  <div id="screen-button" class="relative z-10 flex flex-col items-center justify-between w-full h-full min-h-screen p-6 max-w-md mx-auto">
+  <div id="screen-button" class="relative z-10 flex flex-col items-center justify-between w-full h-full min-h-screen p-6 pb-24 max-w-md mx-auto">
     
     <!-- Alerta Vermelho Superior -->
     <div class="w-full mt-4">
@@ -101,10 +101,10 @@
         🔗 Conectar com Gabriel
       </p>
       <div class="flex justify-center items-center gap-3">
-        <!-- Steam -->
-        <a href="https://steamcommunity.com/id/amogusjo/" target="_blank" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-blue-400 hover:text-blue-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md" title="Steam">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/gabriel.cauzin/" target="_blank" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-pink-400 hover:text-pink-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md" title="Instagram">
           <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 .007c-5.748 0-10.537 4.093-11.66 9.537l5.37 2.217c.56-.37 1.22-.596 1.94-.596h.05l2.42-3.51V7.59a3.52 3.52 0 1 1 3.52 3.52h-.06l-3.51 2.42v.05c0 .72-.23 1.38-.6 1.94l2.21 5.37C19.9 19.78 24 15.01 24 9.53c0-5.26-4.26-9.52-9.53-9.52l-2.47-.003zM7.66 11.75c-.32 0-.64.08-.92.24L1.4 9.77C1.14 10.49 1 11.24 1 12.01c0 5.26 4.26 9.53 9.53 9.53.77 0 1.52-.09 2.24-.26l-2.21-5.37c-.56.37-1.22.6-1.94.6a3.52 3.52 0 1 1 .05-7.04h.05l3.51-2.42V7.59a1.52 1.52 0 1 0-3.04 0v.05l-3.51 2.42c-.28-.16-.6-.24-.92-.24zm1.94 1.94c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm5.42-7.11c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
           </svg>
         </a>
         <!-- Twitter/X -->
@@ -113,24 +113,24 @@
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
           </svg>
         </a>
-        <!-- Spotify -->
-        <a href="https://open.spotify.com/user/12151240468" target="_blank" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-green-400 hover:text-green-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md" title="Spotify">
-          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 0C5.373 0 0 5.372 0 12s5.373 12 12 12 12-5.372 12-12S18.627 0 12 0zm5.492 17.31c-.216.354-.674.468-1.03.25-2.875-1.758-6.495-2.156-10.758-1.18-.403.093-.81-.157-.903-.562-.093-.404.157-.81.562-.904 4.664-1.066 8.653-.615 11.878 1.356.356.218.47.674.25 1.03zm1.464-3.26c-.273.443-.853.588-1.296.315-3.29-2.02-8.31-2.607-12.2-1.425-.5.15-1.025-.137-1.176-.638-.15-.5.137-1.024.638-1.175 4.453-1.35 10.013-.7 13.722 1.58.442.27.587.85.312 1.294zm.126-3.41c-3.945-2.34-10.457-2.558-14.234-1.41-.605.18-1.246-.154-1.43-.76-.182-.605.154-1.247.76-1.43 4.342-1.32 11.532-1.066 16.074 1.63.543.32.72 1.024.398 1.567-.32.54-.1022.72-1.566.398z"/>
-          </svg>
-        </a>
-        <!-- Instagram -->
-        <a href="https://www.instagram.com/gabriel.cauzin/" target="_blank" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-pink-400 hover:text-pink-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md" title="Instagram">
-          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
-          </svg>
-        </a>
         <!-- Discord (Copia a tag nobre__ ao tocar e mostra toast) -->
         <button onclick="navigator.clipboard.writeText('nobre__'); showToast('Tag do Discord copiada: nobre__')" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-indigo-400 hover:text-indigo-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md cursor-pointer" title="Discord">
           <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.094 13.094 0 0 1-1.873-.894.077.077 0 0 1-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 0 1 .077-.011c3.92 1.793 8.18 1.793 12.061 0a.073.073 0 0 1 .078.009c.12.099.246.195.373.289a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.156 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.156 2.418z"/>
           </svg>
         </button>
+        <!-- Steam -->
+        <a href="https://steamcommunity.com/id/amogusjo/" target="_blank" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-blue-400 hover:text-blue-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md" title="Steam">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 .007c-5.748 0-10.537 4.093-11.66 9.537l5.37 2.217c.56-.37 1.22-.596 1.94-.596h.05l2.42-3.51V7.59a3.52 3.52 0 1 1 3.52 3.52h-.06l-3.51 2.42v.05c0 .72-.23 1.38-.6 1.94l2.21 5.37C19.9 19.78 24 15.01 24 9.53c0-5.26-4.26-9.52-9.53-9.52l-2.47-.003zM7.66 11.75c-.32 0-.64.08-.92.24L1.4 9.77C1.14 10.49 1 11.24 1 12.01c0 5.26 4.26 9.53 9.53 9.53.77 0 1.52-.09 2.24-.26l-2.21-5.37c-.56.37-1.22.6-1.94.6a3.52 3.52 0 1 1 .05-7.04h.05l3.51-2.42V7.59a1.52 1.52 0 1 0-3.04 0v.05l-3.51 2.42c-.28-.16-.6-.24-.92-.24zm1.94 1.94c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm5.42-7.11c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+          </svg>
+        </a>
+        <!-- Spotify -->
+        <a href="https://open.spotify.com/user/12151240468" target="_blank" class="w-11 h-11 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-green-400 hover:text-green-300 hover:border-neutral-700 active:scale-90 transition-all shadow-md" title="Spotify">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 0C5.373 0 0 5.372 0 12s5.373 12 12 12 12-5.372 12-12S18.627 0 12 0zm5.492 17.31c-.216.354-.674.468-1.03.25-2.875-1.758-6.495-2.156-10.758-1.18-.403.093-.81-.157-.903-.562-.093-.404.157-.81.562-.904 4.664-1.066 8.653-.615 11.878 1.356.356.218.47.674.25 1.03zm1.464-3.26c-.273.443-.853.588-1.296.315-3.29-2.02-8.31-2.607-12.2-1.425-.5.15-1.025-.137-1.176-.638-.15-.5.137-1.024.638-1.175 4.453-1.35 10.013-.7 13.722 1.58.442.27.587.85.312 1.294zm.126-3.41c-3.945-2.34-10.457-2.558-14.234-1.41-.605.18-1.246-.154-1.43-.76-.182-.605.154-1.247.76-1.43 4.342-1.32 11.532-1.066 16.074 1.63.543.32.72 1.024.398 1.567-.32.54-.1022.72-1.566.398z"/>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -229,7 +229,7 @@
 
 
   <!-- ================= TELA 3: SOCIAL CARDS COM STATUS DE JOGO ================= -->
-  <div id="screen-socials" class="hidden relative z-10 flex flex-col items-center justify-start w-full min-h-screen p-6 overflow-y-auto no-scrollbar max-w-md mx-auto">
+  <div id="screen-socials" class="hidden relative z-10 flex flex-col items-center justify-start w-full min-h-screen p-6 pb-24 overflow-y-auto no-scrollbar max-w-md mx-auto">
     
     <!-- Cabeçalho do Personagem -->
     <div class="flex flex-col items-center gap-2 mt-6 mb-4 text-center">
@@ -276,70 +276,7 @@
     <!-- Lista de Links Sociais (Visual "Tarefas a Fazer") -->
     <div class="w-full flex flex-col gap-4 mb-8">
       
-      <!-- TAREFA 1: STEAM -->
-      <a href="https://steamcommunity.com/id/amogusjo/" target="_blank" data-task-id="steam" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
-        <div class="absolute top-0 left-0 h-full w-1.5 bg-blue-500" id="steam-accent"></div>
-        <div class="flex items-center gap-4 pl-2">
-          <!-- Ícone Steam -->
-          <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-blue-400 border border-neutral-800 shadow-inner group-hover:scale-105 transition-transform duration-150">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 .007c-5.748 0-10.537 4.093-11.66 9.537l5.37 2.217c.56-.37 1.22-.596 1.94-.596h.05l2.42-3.51V7.59a3.52 3.52 0 1 1 3.52 3.52h-.06l-3.51 2.42v.05c0 .72-.23 1.38-.6 1.94l2.21 5.37C19.9 19.78 24 15.01 24 9.53c0-5.26-4.26-9.52-9.53-9.52l-2.47-.003zM7.66 11.75c-.32 0-.64.08-.92.24L1.4 9.77C1.14 10.49 1 11.24 1 12.01c0 5.26 4.26 9.53 9.53 9.53.77 0 1.52-.09 2.24-.26l-2.21-5.37c-.56.37-1.22.6-1.94.6a3.52 3.52 0 1 1 .05-7.04h.05l3.51-2.42V7.59a1.52 1.52 0 1 0-3.04 0v.05l-3.51 2.42c-.28-.16-.6-.24-.92-.24zm1.94 1.94c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm5.42-7.11c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-            </svg>
-          </div>
-          <div class="flex flex-col">
-            <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: STEAM</span>
-            <span class="text-lg font-retro font-bold text-white group-hover:text-blue-400 transition-colors duration-150" id="steam-text">Adicionar amogusjo na Steam</span>
-          </div>
-        </div>
-        <!-- Indicador de Status -->
-        <div class="task-status flex items-center justify-center w-8 h-8 rounded-full bg-neutral-900 border border-neutral-800" id="steam-status">
-          <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
-        </div>
-      </a>
-
-      <!-- TAREFA 2: TWITTER -->
-      <a href="https://x.com/_nobre___" target="_blank" data-task-id="twitter" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
-        <div class="absolute top-0 left-0 h-full w-1.5 bg-neutral-400" id="twitter-accent"></div>
-        <div class="flex items-center gap-4 pl-2">
-          <!-- Ícone Twitter -->
-          <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-neutral-200 border border-neutral-800 shadow-inner group-hover:scale-105 transition-transform duration-150">
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-          </div>
-          <div class="flex flex-col">
-            <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: TWITTER</span>
-            <span class="text-lg font-retro font-bold text-white group-hover:text-neutral-200 transition-colors duration-150" id="twitter-text">Seguir @_nobre___ no X</span>
-          </div>
-        </div>
-        <!-- Indicador de Status -->
-        <div class="task-status flex items-center justify-center w-8 h-8 rounded-full bg-neutral-900 border border-neutral-800" id="twitter-status">
-          <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
-        </div>
-      </a>
-
-      <!-- TAREFA 3: SPOTIFY -->
-      <a href="https://open.spotify.com/user/12151240468" target="_blank" data-task-id="spotify" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
-        <div class="absolute top-0 left-0 h-full w-1.5 bg-green-500" id="spotify-accent"></div>
-        <div class="flex items-center gap-4 pl-2">
-          <!-- Ícone Spotify -->
-          <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-green-400 border border-neutral-800 shadow-inner group-hover:scale-105 transition-transform duration-150">
-            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 0C5.373 0 0 5.372 0 12s5.373 12 12 12 12-5.372 12-12S18.627 0 12 0zm5.492 17.31c-.216.354-.674.468-1.03.25-2.875-1.758-6.495-2.156-10.758-1.18-.403.093-.81-.157-.903-.562-.093-.404.157-.81.562-.904 4.664-1.066 8.653-.615 11.878 1.356.356.218.47.674.25 1.03zm1.464-3.26c-.273.443-.853.588-1.296.315-3.29-2.02-8.31-2.607-12.2-1.425-.5.15-1.025-.137-1.176-.638-.15-.5.137-1.024.638-1.175 4.453-1.35 10.013-.7 13.722 1.58.442.27.587.85.312 1.294zm.126-3.41c-3.945-2.34-10.457-2.558-14.234-1.41-.605.18-1.246-.154-1.43-.76-.182-.605.154-1.247.76-1.43 4.342-1.32 11.532-1.066 16.074 1.63.543.32.72 1.024.398 1.567-.32.54-.1022.72-1.566.398z"/>
-            </svg>
-          </div>
-          <div class="flex flex-col">
-            <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: SPOTIFY</span>
-            <span class="text-lg font-retro font-bold text-white group-hover:text-green-400 transition-colors duration-150" id="spotify-text">Ver perfil nobre no Spotify</span>
-          </div>
-        </div>
-        <!-- Indicador de Status -->
-        <div class="task-status flex items-center justify-center w-8 h-8 rounded-full bg-neutral-900 border border-neutral-800" id="spotify-status">
-          <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
-        </div>
-      </a>
-
-      <!-- TAREFA 4: INSTAGRAM -->
+      <!-- TAREFA 1: INSTAGRAM -->
       <a href="https://www.instagram.com/gabriel.cauzin/" target="_blank" data-task-id="instagram" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
         <div class="absolute top-0 left-0 h-full w-1.5 bg-pink-500" id="instagram-accent"></div>
         <div class="flex items-center gap-4 pl-2">
@@ -360,7 +297,28 @@
         </div>
       </a>
 
-      <!-- TAREFA 5: DISCORD -->
+      <!-- TAREFA 2: TWITTER -->
+      <a href="https://x.com/_nobre___" target="_blank" data-task-id="twitter" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
+        <div class="absolute top-0 left-0 h-full w-1.5 bg-neutral-400" id="twitter-accent"></div>
+        <div class="flex items-center gap-4 pl-2">
+          <!-- Ícone Twitter -->
+          <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-neutral-200 border border-neutral-800 shadow-inner group-hover:scale-105 transition-transform duration-150">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: TWITTER</span>
+            <span class="text-lg font-retro font-bold text-white group-hover:text-neutral-200 transition-colors duration-150" id="twitter-text">Seguir @_nobre___</span>
+          </div>
+        </div>
+        <!-- Indicador de Status -->
+        <div class="task-status flex items-center justify-center w-8 h-8 rounded-full bg-neutral-900 border border-neutral-800" id="twitter-status">
+          <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
+        </div>
+      </a>
+
+      <!-- TAREFA 3: DISCORD -->
       <div data-task-id="discord" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
         <div class="absolute top-0 left-0 h-full w-1.5 bg-indigo-500" id="discord-accent"></div>
         <div class="flex items-center gap-4 pl-2">
@@ -372,7 +330,7 @@
           </div>
           <div class="flex flex-col">
             <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: DISCORD</span>
-            <span class="text-lg font-retro font-bold text-white group-hover:text-indigo-400 transition-colors duration-150" id="discord-text">Copiar Discord Tag: <span class="font-sans font-medium text-neutral-300 text-sm">nobre__</span></span>
+            <span class="text-lg font-retro font-bold text-white group-hover:text-indigo-400 transition-colors duration-150" id="discord-text">Copiar Tag: <span class="font-sans font-medium text-neutral-300 text-sm">nobre__</span></span>
           </div>
         </div>
         <!-- Indicador de Status -->
@@ -380,6 +338,48 @@
           <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
         </div>
       </div>
+
+      <!-- TAREFA 4: STEAM -->
+      <a href="https://steamcommunity.com/id/amogusjo/" target="_blank" data-task-id="steam" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
+        <div class="absolute top-0 left-0 h-full w-1.5 bg-blue-500" id="steam-accent"></div>
+        <div class="flex items-center gap-4 pl-2">
+          <!-- Ícone Steam -->
+          <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-blue-400 border border-neutral-800 shadow-inner group-hover:scale-105 transition-transform duration-150">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 .007c-5.748 0-10.537 4.093-11.66 9.537l5.37 2.217c.56-.37 1.22-.596 1.94-.596h.05l2.42-3.51V7.59a3.52 3.52 0 1 1 3.52 3.52h-.06l-3.51 2.42v.05c0 .72-.23 1.38-.6 1.94l2.21 5.37C19.9 19.78 24 15.01 24 9.53c0-5.26-4.26-9.52-9.53-9.52l-2.47-.003zM7.66 11.75c-.32 0-.64.08-.92.24L1.4 9.77C1.14 10.49 1 11.24 1 12.01c0 5.26 4.26 9.53 9.53 9.53.77 0 1.52-.09 2.24-.26l-2.21-5.37c-.56.37-1.22.6-1.94.6a3.52 3.52 0 1 1 .05-7.04h.05l3.51-2.42V7.59a1.52 1.52 0 1 0-3.04 0v.05l-3.51 2.42c-.28-.16-.6-.24-.92-.24zm1.94 1.94c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm5.42-7.11c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm0 .5a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+            </svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: STEAM</span>
+            <span class="text-lg font-retro font-bold text-white group-hover:text-blue-400 transition-colors duration-150" id="steam-text">Adicionar amogusjo</span>
+          </div>
+        </div>
+        <!-- Indicador de Status -->
+        <div class="task-status flex items-center justify-center w-8 h-8 rounded-full bg-neutral-900 border border-neutral-800" id="steam-status">
+          <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
+        </div>
+      </a>
+
+      <!-- TAREFA 5: SPOTIFY -->
+      <a href="https://open.spotify.com/user/12151240468" target="_blank" data-task-id="spotify" class="social-card flex items-center justify-between bg-neutral-950 hover:bg-neutral-900/60 border border-neutral-800 hover:border-neutral-700/80 rounded-2xl p-4 transition-all duration-150 cursor-pointer relative overflow-hidden group shadow-md shadow-black/40">
+        <div class="absolute top-0 left-0 h-full w-1.5 bg-green-500" id="spotify-accent"></div>
+        <div class="flex items-center gap-4 pl-2">
+          <!-- Ícone Spotify -->
+          <div class="w-12 h-12 rounded-xl bg-neutral-900 flex items-center justify-center text-green-400 border border-neutral-800 shadow-inner group-hover:scale-105 transition-transform duration-150">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 0C5.373 0 0 5.372 0 12s5.373 12 12 12 12-5.372 12-12S18.627 0 12 0zm5.492 17.31c-.216.354-.674.468-1.03.25-2.875-1.758-6.495-2.156-10.758-1.18-.403.093-.81-.157-.903-.562-.093-.404.157-.81.562-.904 4.664-1.066 8.653-.615 11.878 1.356.356.218.47.674.25 1.03zm1.464-3.26c-.273.443-.853.588-1.296.315-3.29-2.02-8.31-2.607-12.2-1.425-.5.15-1.025-.137-1.176-.638-.15-.5.137-1.024.638-1.175 4.453-1.35 10.013-.7 13.722 1.58.442.27.587.85.312 1.294zm.126-3.41c-3.945-2.34-10.457-2.558-14.234-1.41-.605.18-1.246-.154-1.43-.76-.182-.605.154-1.247.76-1.43 4.342-1.32 11.532-1.066 16.074 1.63.543.32.72 1.024.398 1.567-.32.54-.1022.72-1.566.398z"/>
+            </svg>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-xs uppercase font-mono tracking-widest text-neutral-400 group-hover:text-neutral-300">Tarefa: SPOTIFY</span>
+            <span class="text-lg font-retro font-bold text-white group-hover:text-green-400 transition-colors duration-150" id="spotify-text">Ver perfil nobre</span>
+          </div>
+        </div>
+        <!-- Indicador de Status -->
+        <div class="task-status flex items-center justify-center w-8 h-8 rounded-full bg-neutral-900 border border-neutral-800" id="spotify-status">
+          <span class="text-amber-500 font-retro text-lg animate-pulse font-bold">!</span>
+        </div>
+      </a>
 
     </div>
 
