@@ -660,8 +660,9 @@
           return res.json();
         })
         .then(data => {
-          if (data && data.value) {
-            const formatted = String(data.value).padStart(6, '0');
+          if (data && (data.count !== undefined || data.value !== undefined)) {
+            const val = data.count !== undefined ? data.count : data.value;
+            const formatted = String(val).padStart(6, '0');
             viewCounterEl.textContent = `ESCANEAMENTOS: [ ${formatted} ]`;
           }
         })
